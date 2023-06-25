@@ -1,0 +1,90 @@
+{
+	"statusCode": 200,
+	"data": {
+		"totalItems": 2,
+		"itemsPage": 2,
+		"itemsPerPage": 20,
+		"totalPages": 1,
+		"currentPage": "1",
+		"beginPage": 0,
+		"endPage": 20,
+		"data": [
+			{
+				"process": [
+					{
+						"status": 1,
+						"description": "Pendiente por Aprobación QF",
+						"date_process": "2023-06-17T03:07:36.665Z"
+					}
+				],
+				"restore_log": [],
+				"delivery_key": "",
+				"temperature_info": [],
+				"_id": "648d237831f5a6000d48652d",
+				"pharmacy": "jvf",
+				"status": {
+					"status": 1,
+					"description": "Pendiente por Aprobación QF",
+					"date_process": "2023-06-17T03:07:36.665Z"
+				},
+				"trx_id": 221673,
+				"delivery_type": "domicilio",
+				"module": null,
+				"country": "CL",
+				"updatedAt": 1686971256,
+				"createdAt": 1686971256,
+				"__v": 0,
+				"on_demand": true,
+				"root_pharmacy": "pharol",
+				"interface": {
+					"on_demand": null,
+					"magistral": {
+						"title": "Receta Magistral",
+						"image": {
+							"jxr": "https://storage.googleapis.com/master-image-bucket/react-checkout/magistral-recipe/magistral.jxr",
+							"jp2": "https://storage.googleapis.com/master-image-bucket/react-checkout/magistral-recipe/magistral.jp2",
+							"webp": "https://storage.googleapis.com/master-image-bucket/react-checkout/magistral-recipe/magistral.webp",
+							"default": "https://storage.googleapis.com/master-image-bucket/react-checkout/magistral-recipe/magistral.png"
+						}
+					}
+				},
+				"url_voucher": "https://storage.googleapis.com/pharol-pharmacy-voucher-prod/cl/ef12dc9909559acd4ec858687aee630d9d97cd934ef55f75b401e8ce5772713f.pdf",
+				"external_implementation_reference": null
+			},
+			{
+				"process": [
+					{
+						"status": 1,
+						"description": "Pendiente por Aprobación QF",
+						"date_process": "2023-06-17T02:29:35.064Z"
+					}
+				],
+				"restore_log": [],
+				"delivery_key": "",
+				"temperature_info": [],
+				"_id": "648d1a8f8af482000df629b6",
+				"pharmacy": "jvf",
+				"status": {
+					"status": 1,
+					"description": "Pendiente por Aprobación QF",
+					"date_process": "2023-06-17T02:29:35.064Z"
+				},
+				"trx_id": 221671,
+				"delivery_type": "domicilio",
+				"module": "19/06/2023; 12:00:00 - 16:00:00",
+				"country": "CL",
+				"updatedAt": 1686968975,
+				"createdAt": 1686968975,
+				"__v": 0,
+				"on_demand": false,
+				"root_pharmacy": "pharol",
+				"interface": {
+					"on_demand": null,
+					"magistral": null
+				},
+				"url_voucher": "https://storage.googleapis.com/pharol-pharmacy-voucher-prod/cl/ab4044430f1cc893020edda0f9a82d8cbc63c37341c970e938e26bfa68b95101.pdf",
+				"external_implementation_reference": null
+			}
+		]
+	}
+}

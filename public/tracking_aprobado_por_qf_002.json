@@ -1,0 +1,380 @@
+{
+	"statusCode": 200,
+	"data": {
+		"totalItems": 3,
+		"itemsPage": 3,
+		"itemsPerPage": 20,
+		"totalPages": 1,
+		"currentPage": "1",
+		"beginPage": 0,
+		"endPage": 20,
+		"data": [
+			{
+				"process": [
+					{
+						"status": 1,
+						"description": "Pendiente por Aprobación QF",
+						"date_process": "2023-06-16T19:48:53.911Z"
+					},
+					{
+						"status": 2,
+						"description": "Aprobado por QF",
+						"date_process": "2023-06-16T19:49:01.206Z",
+						"email_qf": "bot@pharol.cl"
+					}
+				],
+				"restore_log": [],
+				"delivery_key": "",
+				"temperature_info": [],
+				"_id": "648cbca5199291000dfa9fa4",
+				"pharmacy": "jvf",
+				"status": {
+					"status": 2,
+					"description": "Aprobado por QF",
+					"date_process": "2023-06-16T19:49:01.206Z",
+					"email_qf": "bot@pharol.cl"
+				},
+				"trx_id": 221664,
+				"delivery_type": "domicilio",
+				"module": "17/06/2023; 12:00:00 - 16:00:00",
+				"country": "CL",
+				"updatedAt": 1686944941,
+				"createdAt": 1686944933,
+				"__v": 0,
+				"pos": {
+					"status": true,
+					"pharmacy": "jvf",
+					"id_transaction": 13644,
+					"data": {
+						"href": "https://api.bsale.cl/v1/documents/124008.json",
+						"id": 124008,
+						"emissionDate": 1686873600,
+						"expirationDate": 1689465600,
+						"generationDate": 1686944940,
+						"number": 13644,
+						"serialNumber": null,
+						"trackingNumber": null,
+						"totalAmount": 14980,
+						"netAmount": 12588,
+						"taxAmount": 2392,
+						"exemptAmount": 0,
+						"exportTotalAmount": 0,
+						"exportNetAmount": 0,
+						"exportTaxAmount": 0,
+						"exportExemptAmount": 0,
+						"commissionRate": 0,
+						"commissionNetAmount": 0,
+						"commissionTaxAmount": 0,
+						"commissionTotalAmount": 0,
+						"percentageTaxWithheld": 0,
+						"purchaseTaxAmount": 0,
+						"purchaseTotalAmount": 0,
+						"address": " Región Metropolitana, Diego de Velásquez 2071,  7510182 Providencia Diego de Velásquez 2071, 2071, departamento - 1308",
+						"municipality": " 7510182 Providencia",
+						"city": "Región Metropolitana De Santiago",
+						"urlTimbre": null,
+						"urlPublicView": "https://app2.bsale.cl/view/17949/7f09f1a1046a?sfd=99",
+						"urlPdf": "https://app2.bsale.cl/view/17949/7f09f1a1046a.pdf?sfd=99",
+						"urlPublicViewOriginal": "https://app2.bsale.cl/view/17949/7f09f1a1046a",
+						"urlPdfOriginal": "https://app2.bsale.cl/view/17949/7f09f1a1046a.pdf",
+						"token": "7f09f1a1046a",
+						"state": 0,
+						"commercialState": 0,
+						"urlXml": "https://api.bsale.cl/v1/17949/files/7f09f1a1046a.xml",
+						"ted": null,
+						"salesId": "221664",
+						"informedSii": 2,
+						"responseMsgSii": null,
+						"document_type": {
+							"href": "https://api.bsale.cl/v1/document_types/3.json",
+							"id": "3"
+						},
+						"client": {
+							"href": "https://api.bsale.cl/v1/clients/10125.json",
+							"id": "10125"
+						},
+						"office": {
+							"href": "https://api.bsale.cl/v1/offices/1.json",
+							"id": "1"
+						},
+						"user": {
+							"href": "https://api.bsale.cl/v1/users/2.json",
+							"id": "2"
+						},
+						"coin": {
+							"href": "https://api.bsale.cl/v1/coins/1.json",
+							"id": "1"
+						},
+						"references": {
+							"href": "https://api.bsale.cl/v1/documents/124008/references.json"
+						},
+						"document_taxes": {
+							"href": "https://api.bsale.cl/v1/documents/124008/document_taxes.json"
+						},
+						"details": {
+							"href": "https://api.bsale.cl/v1/documents/124008/details.json"
+						},
+						"sellers": {
+							"href": "https://api.bsale.cl/v1/documents/124008/sellers.json"
+						},
+						"attributes": {
+							"href": "https://api.bsale.cl/v1/documents/124008/attributes.json"
+						}
+					}
+				},
+				"on_demand": false,
+				"root_pharmacy": "pharol",
+				"interface": {
+					"on_demand": null,
+					"magistral": null
+				},
+				"url_voucher": "https://storage.googleapis.com/pharol-pharmacy-voucher-prod/cl/0a2f51d2a47ce64e92e1180ba8621fe72d736b3a6b3bbfdaeafc347294914a20.pdf",
+				"external_implementation_reference": null
+			},
+			{
+				"process": [
+					{
+						"status": 1,
+						"description": "Pendiente por Aprobación QF",
+						"date_process": "2023-06-16T18:00:08.035Z"
+					},
+					{
+						"status": 2,
+						"description": "Aprobado por QF",
+						"date_process": "2023-06-16T21:01:33.396Z",
+						"email_qf": "jeancarlos@farmaciasjvf.com"
+					}
+				],
+				"restore_log": [],
+				"delivery_key": "",
+				"temperature_info": [],
+				"_id": "648ca328b969f4000d6c8d1b",
+				"pharmacy": "jvf",
+				"status": {
+					"status": 2,
+					"description": "Aprobado por QF",
+					"date_process": "2023-06-16T21:01:33.396Z",
+					"email_qf": "jeancarlos@farmaciasjvf.com"
+				},
+				"trx_id": 221661,
+				"delivery_type": "domicilio",
+				"module": "17/06/2023; 12:00:00 - 16:00:00",
+				"country": "CL",
+				"updatedAt": 1686949293,
+				"createdAt": 1686938408,
+				"__v": 0,
+				"pos": {
+					"status": true,
+					"pharmacy": "jvf",
+					"id_transaction": 13646,
+					"data": {
+						"href": "https://api.bsale.cl/v1/documents/124017.json",
+						"id": 124017,
+						"emissionDate": 1686873600,
+						"expirationDate": 1689465600,
+						"generationDate": 1686949291,
+						"number": 13646,
+						"serialNumber": null,
+						"trackingNumber": null,
+						"totalAmount": 18790,
+						"netAmount": 15790,
+						"taxAmount": 3000,
+						"exemptAmount": 0,
+						"exportTotalAmount": 0,
+						"exportNetAmount": 0,
+						"exportTaxAmount": 0,
+						"exportExemptAmount": 0,
+						"commissionRate": 0,
+						"commissionNetAmount": 0,
+						"commissionTaxAmount": 0,
+						"commissionTotalAmount": 0,
+						"percentageTaxWithheld": 0,
+						"purchaseTaxAmount": 0,
+						"purchaseTotalAmount": 0,
+						"address": " Región Metropolitana, Borodin 3105,  San Joaquín Borodin, 3105, casa. ",
+						"municipality": " San Joaquín",
+						"city": "Región Metropolitana De Santiago",
+						"urlTimbre": null,
+						"urlPublicView": "https://app2.bsale.cl/view/17949/0b803f2d18df?sfd=99",
+						"urlPdf": "https://app2.bsale.cl/view/17949/0b803f2d18df.pdf?sfd=99",
+						"urlPublicViewOriginal": "https://app2.bsale.cl/view/17949/0b803f2d18df",
+						"urlPdfOriginal": "https://app2.bsale.cl/view/17949/0b803f2d18df.pdf",
+						"token": "0b803f2d18df",
+						"state": 0,
+						"commercialState": 0,
+						"urlXml": "https://api.bsale.cl/v1/17949/files/0b803f2d18df.xml",
+						"ted": null,
+						"salesId": "221661",
+						"informedSii": 2,
+						"responseMsgSii": null,
+						"document_type": {
+							"href": "https://api.bsale.cl/v1/document_types/3.json",
+							"id": "3"
+						},
+						"client": {
+							"href": "https://api.bsale.cl/v1/clients/10127.json",
+							"id": "10127"
+						},
+						"office": {
+							"href": "https://api.bsale.cl/v1/offices/1.json",
+							"id": "1"
+						},
+						"user": {
+							"href": "https://api.bsale.cl/v1/users/2.json",
+							"id": "2"
+						},
+						"coin": {
+							"href": "https://api.bsale.cl/v1/coins/1.json",
+							"id": "1"
+						},
+						"references": {
+							"href": "https://api.bsale.cl/v1/documents/124017/references.json"
+						},
+						"document_taxes": {
+							"href": "https://api.bsale.cl/v1/documents/124017/document_taxes.json"
+						},
+						"details": {
+							"href": "https://api.bsale.cl/v1/documents/124017/details.json"
+						},
+						"sellers": {
+							"href": "https://api.bsale.cl/v1/documents/124017/sellers.json"
+						},
+						"attributes": {
+							"href": "https://api.bsale.cl/v1/documents/124017/attributes.json"
+						}
+					}
+				},
+				"on_demand": false,
+				"root_pharmacy": "pharol",
+				"interface": {
+					"on_demand": null,
+					"magistral": null
+				},
+				"url_voucher": "https://storage.googleapis.com/pharol-pharmacy-voucher-prod/cl/6e04041af9f347eff1c9378195de863e6e613a4468e3724b8e988dd33b864456.pdf",
+				"external_implementation_reference": null
+			},
+			{
+				"process": [
+					{
+						"status": 1,
+						"description": "Pendiente por Aprobación QF",
+						"date_process": "2023-06-13T19:19:21.179Z"
+					},
+					{
+						"status": 2,
+						"description": "Aprobado por QF",
+						"date_process": "2023-06-15T14:33:32.474Z",
+						"email_qf": "dt@farmaciasjvf.com"
+					}
+				],
+				"restore_log": [],
+				"delivery_key": "",
+				"temperature_info": [],
+				"_id": "6488c139c57d53000d476c15",
+				"pharmacy": "jvf",
+				"status": {
+					"status": 2,
+					"description": "Aprobado por QF",
+					"date_process": "2023-06-15T14:33:32.474Z",
+					"email_qf": "dt@farmaciasjvf.com"
+				},
+				"trx_id": 221604,
+				"delivery_type": "domicilio",
+				"module": "14/06/2023; 12:00:00 - 16:00:00",
+				"country": "CL",
+				"updatedAt": 1686839612,
+				"createdAt": 1686683961,
+				"__v": 0,
+				"pos": {
+					"status": true,
+					"pharmacy": "jvf",
+					"id_transaction": 13640,
+					"data": {
+						"href": "https://api.bsale.cl/v1/documents/123926.json",
+						"id": 123926,
+						"emissionDate": 1686614400,
+						"expirationDate": 1689206400,
+						"generationDate": 1686839611,
+						"number": 13640,
+						"serialNumber": null,
+						"trackingNumber": null,
+						"totalAmount": 18990,
+						"netAmount": 15958,
+						"taxAmount": 3032,
+						"exemptAmount": 0,
+						"exportTotalAmount": 0,
+						"exportNetAmount": 0,
+						"exportTaxAmount": 0,
+						"exportExemptAmount": 0,
+						"commissionRate": 0,
+						"commissionNetAmount": 0,
+						"commissionTaxAmount": 0,
+						"commissionTotalAmount": 0,
+						"percentageTaxWithheld": 0,
+						"purchaseTaxAmount": 0,
+						"purchaseTotalAmount": 0,
+						"address": " Región Metropolitana, Holanda 2125,  7510937 Providencia Holanda 2125, 2125, departamento - depto 505",
+						"municipality": " 7510937 Providencia",
+						"city": "Región Metropolitana De Santiago",
+						"urlTimbre": null,
+						"urlPublicView": "https://app2.bsale.cl/view/17949/3f65e20a6ab4?sfd=99",
+						"urlPdf": "https://app2.bsale.cl/view/17949/3f65e20a6ab4.pdf?sfd=99",
+						"urlPublicViewOriginal": "https://app2.bsale.cl/view/17949/3f65e20a6ab4",
+						"urlPdfOriginal": "https://app2.bsale.cl/view/17949/3f65e20a6ab4.pdf",
+						"token": "3f65e20a6ab4",
+						"state": 0,
+						"commercialState": 0,
+						"urlXml": "https://api.bsale.cl/v1/17949/files/3f65e20a6ab4.xml",
+						"ted": null,
+						"salesId": "221604",
+						"informedSii": 2,
+						"responseMsgSii": null,
+						"document_type": {
+							"href": "https://api.bsale.cl/v1/document_types/3.json",
+							"id": "3"
+						},
+						"client": {
+							"href": "https://api.bsale.cl/v1/clients/10122.json",
+							"id": "10122"
+						},
+						"office": {
+							"href": "https://api.bsale.cl/v1/offices/1.json",
+							"id": "1"
+						},
+						"user": {
+							"href": "https://api.bsale.cl/v1/users/2.json",
+							"id": "2"
+						},
+						"coin": {
+							"href": "https://api.bsale.cl/v1/coins/1.json",
+							"id": "1"
+						},
+						"references": {
+							"href": "https://api.bsale.cl/v1/documents/123926/references.json"
+						},
+						"document_taxes": {
+							"href": "https://api.bsale.cl/v1/documents/123926/document_taxes.json"
+						},
+						"details": {
+							"href": "https://api.bsale.cl/v1/documents/123926/details.json"
+						},
+						"sellers": {
+							"href": "https://api.bsale.cl/v1/documents/123926/sellers.json"
+						},
+						"attributes": {
+							"href": "https://api.bsale.cl/v1/documents/123926/attributes.json"
+						}
+					}
+				},
+				"on_demand": false,
+				"root_pharmacy": "pharol",
+				"interface": {
+					"on_demand": null,
+					"magistral": null
+				},
+				"url_voucher": "https://storage.googleapis.com/pharol-pharmacy-voucher-prod/cl/1ea54e6cc4575d1a12d6b615ad7c8cac28309c738f97a6c19f9296762a188ddc.pdf",
+				"external_implementation_reference": null
+			}
+		]
+	}
+}

@@ -1,0 +1,25 @@
+/** @format */
+
+.own-submit-button {
+	color: #fff;
+	font-weight: 500;
+	font-size: 14px;
+	height: 39px;
+	background-color: #f61073;
+	border-radius: 10px;
+	padding: 6px;
+	width: 100%;
+	max-width: 100%;
+	margin: 0 auto;
+	cursor: pointer;
+}
+.own-submit-button:hover {
+	background-color: #f61073;
+	border: none;
+	color: #fff;
+}
+.own-submit-button:focus {
+	background-color: #f61073;
+	border: none;
+	color: #fff;
+}
