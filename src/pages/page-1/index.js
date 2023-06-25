@@ -1,4 +1,4 @@
-import React, { useState } from "react";
+import React from "react";
 import { useQuery } from "react-query";
 import { getDataPending, getDataToDeliver, getDataDelivered } from "./service";
 import { Col, Row, Spin } from "antd";
